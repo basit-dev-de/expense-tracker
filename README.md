@@ -1,7 +1,6 @@
-
 # Market Dashboard
 
-![Market Dashboard](public/og-image.png)
+![Market Dashboard](public/expense-tracker.png)
 
 ## Overview
 
@@ -68,22 +67,3 @@ src/
 ├── pages/          # Page components
 └── store/          # Redux store configuration
 ```
-
-## Deployment
-
-This project can be deployed using Lovable:
-
-1. Open [Lovable](https://lovable.dev/projects/91e7153c-4fa4-4345-944c-debcf3454239)
-2. Click on Share -> Publish
-
-For custom domains, please refer to the [Custom domains documentation](https://docs.lovable.dev/tips-tricks/custom-domain/).
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgements
-
-- Created with [Lovable](https://lovable.dev)
-- Icons by [Lucide](https://lucide.dev/)
-- UI components by [shadcn/ui](https://ui.shadcn.com/)
