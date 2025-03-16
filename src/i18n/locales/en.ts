@@ -1,4 +1,3 @@
-
 export const en = {
   // Expense Tracker translations
   expenseTracker: "Expense Tracker",
@@ -28,13 +27,16 @@ export const en = {
   monthlySpending: "Monthly Spending",
   topCategories: "Top Categories",
   budgetStatus: "Budget Status",
+  status: "Status",
+  completed: "Completed",
+  pending: "Pending",
   remaining: "Remaining",
   used: "Used",
   of: "of",
   viewAll: "View All",
   welcomeBack: "Welcome Back",
   todayDate: "Today, {{date}}",
-  
+
   // Common UI elements
   lightTheme: "Light",
   darkTheme: "Dark",
@@ -42,7 +44,7 @@ export const en = {
   language: "Language",
   english: "English",
   german: "German",
-  
+
   // Categories
   food: "Food & Dining",
   transport: "Transportation",
@@ -55,12 +57,14 @@ export const en = {
   personal: "Personal Care",
   travel: "Travel",
   other: "Other",
-  
+
   // Success messages
   transactionAdded: "Transaction added successfully",
   transactionUpdated: "Transaction updated successfully",
   transactionDeleted: "Transaction deleted successfully",
   budgetCreated: "Budget created successfully",
   budgetUpdated: "Budget updated successfully",
-  settingsSaved: "Settings saved successfully"
+  settingsSaved: "Settings saved successfully",
+  thisMonth: "This Month",
+  yourLatestTransactions: "Your Latest Transactions",
 };

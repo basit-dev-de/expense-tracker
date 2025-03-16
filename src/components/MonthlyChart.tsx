@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import {
@@ -56,6 +55,31 @@ const MonthlyChart = () => {
       expense: 1478.15,
       income: 4025,
     },
+    {
+      name: "Aug",
+      expense: 1978.15,
+      income: 3025,
+    },
+    {
+      name: "Sept",
+      expense: 2478.15,
+      income: 5025,
+    },
+    {
+      name: "Oct",
+      expense: 1478.15,
+      income: 4025,
+    },
+    {
+      name: "Nov",
+      expense: 3002.15,
+      income: 6025,
+    },
+    {
+      name: "Dec",
+      expense: 2000.15,
+      income: 8723,
+    },
   ];
 
   const chartConfig = {
@@ -80,6 +104,7 @@ const MonthlyChart = () => {
       <ChartContainer
         config={chartConfig}
         className="h-full"
+        style={{ aspectRatio: "auto" }}
       >
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
@@ -92,11 +117,7 @@ const MonthlyChart = () => {
             }}
           >
             <CartesianGrid strokeDasharray="3 3" vertical={false} />
-            <XAxis
-              dataKey="name"
-              tickLine={false}
-              axisLine={false}
-            />
+            <XAxis dataKey="name" tickLine={false} axisLine={false} />
             <YAxis
               tickLine={false}
               axisLine={false}
