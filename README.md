@@ -1,69 +1,47 @@
-# Market Dashboard
+# 💰 Expense Tracker
 
-![Market Dashboard](public/expense-tracker.png)
+![Expense Tracker](public/expense-tracker.png)
 
-## Overview
+🚀 **Live Demo:** [Expense Tracker](https://basit-dev-de.github.io/expense-tracker/)
 
-Market Dashboard is a modern financial dashboard application that provides real-time tracking of stocks, forex, cryptocurrencies, and commodities. Built with React and TypeScript, it offers a comprehensive view of market data with a clean, responsive interface.
+## 📌 Overview
+The **Expense Tracker** is a user-friendly web application that helps you **track your income and expenses** efficiently. It provides real-time balance updates and detailed transaction history, making personal finance management easy and transparent.
 
-## Features
+## ✨ Features
+- ✅ **Add Income & Expenses** – Easily log transactions with descriptions and amounts.
+- 📊 **Real-time Balance Calculation** – Automatically updates your total balance.
+- 📜 **Transaction History** – View a list of all transactions with delete options.
+- 🎨 **Responsive UI** – Works seamlessly on all devices (Mobile, Tablet, Desktop).
+- 🚀 **Built with React & TypeScript** – Ensuring a modern and maintainable codebase.
+- 🔥 **LocalStorage Integration** – Transactions persist even after refreshing the page.
 
-- **Market Overview**: View key market indices and trends at a glance
-- **Asset Tables**: Browse detailed information for various financial assets:
-  - Stocks
-  - Forex (Currency pairs)
-  - Cryptocurrencies
-  - Commodities
-- **Currency Converter**: Easily convert between different currencies
-- **Market News**: Stay updated with the latest financial news
-- **Watchlists**: Create and manage watchlists for your favorite assets
-- **Dark/Light Mode**: Switch between themes for comfortable viewing
-- **Internationalization**: Available in multiple languages (English, German)
+## 🛠 Tech Stack
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![LocalStorage](https://img.shields.io/badge/LocalStorage-FF9800?style=for-the-badge)
 
-## Technologies Used
-
-- **React** - UI library
-- **TypeScript** - Type-safe JavaScript
-- **Vite** - Fast build tool and development server
-- **Redux Toolkit** - State management with RTK Query
-- **Tailwind CSS** - Utility-first CSS framework
-- **shadcn/ui** - High-quality UI components
-- **Recharts** - Responsive chart components
-- **i18next** - Internationalization framework
-- **React Router** - Client-side routing
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v16 or later) & npm - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-### Installation
-
+## 📦 Installation & Setup
+Clone the repository and install dependencies:
 ```sh
-# Clone the repository
-git clone <YOUR_GIT_URL>
-
-# Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
-
-# Install dependencies
+git clone https://github.com/basit-dev-de/expense-tracker.git
+cd expense-tracker
 npm install
+```
 
-# Start the development server
+### 🚀 Run the Application
+```sh
 npm run dev
 ```
 
-The application will be available at `http://localhost:8080`.
+## 🤝 Contribution
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
-## Project Structure
+## 📬 Connect with Me
+- **GitHub:** [basit-dev-de](https://github.com/basit-dev-de)
+- **Portfolio:** [Website](https://basit-dev.com)
+- **Email:** [basit.ali@toptal.com](mailto:basit.ali@toptal.com)
 
-```
-src/
-├── components/     # UI components
-├── data/           # Mock data for development
-├── i18n/           # Internationalization files
-├── lib/            # Utility functions
-├── pages/          # Page components
-└── store/          # Redux store configuration
-```
+🚀 **Manage your expenses smarter with this simple tracker!**
+
