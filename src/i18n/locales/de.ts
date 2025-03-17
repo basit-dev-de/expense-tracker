@@ -87,4 +87,10 @@ export const de = {
   exportData: "Daten exportieren",
   importData: "Daten importieren",
   saveSettings: "Einstellungen speichern",
+  incomeReport: "Einkommen-Bericht",
+  savingsReport: "Sparen-Bericht",
+  comingSoon: "Bald verflossen!",
+  categoryBreakdown: "Kategorie-Zerlegung",
+  expenses: "Ausgaben",
+  savings: "Sparen",
 };

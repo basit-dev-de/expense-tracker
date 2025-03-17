@@ -87,4 +87,10 @@ export const en = {
   exportData: "Export Data",
   importData: "Import Data",
   saveSettings: "Save Settings",
+  incomeReport: "Income Report",
+  savingsReport: "Savings Report",
+  comingSoon: "Coming Soon!",
+  categoryBreakdown: "Category Breakdown",
+  expenses: "Expenses",
+  savings: "Savings",
 };
